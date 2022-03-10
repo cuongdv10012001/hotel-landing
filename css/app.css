@@ -1,0 +1,398 @@
+
+.h2-color-1{
+    color: rgb(255, 196, 0);
+}
+.head-child {
+    padding: 1em 0;
+}
+.h2-color-2{
+    color: rgb(32, 4, 4);
+}
+.head-title {
+    font-size: 150%;
+    font-weight: 700;
+}
+.head-title:hover {
+    text-decoration: none;
+}
+.name-page {
+    margin: 1em 0;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.social-icon-child {
+    color: black;
+    margin: 0 0.5em;
+}
+.users {
+    display: flex;
+    justify-content: center;
+}
+.signup-title, .login-title {
+    color: black;
+}
+
+.icon-contact {
+    color: rgb(255, 153, 0);
+}
+.navbar {
+    background-color: rgb(255, 196, 0);
+    position: -webkit-sticky;
+    position: sticky;
+    transition: .5s ease; 
+    /* margin-top: 40px; */
+    border-top: 4px solid black ;
+    height: 100px;
+}
+.nav-link {
+    font-size: 100%;
+    font-weight: 500;
+    margin: 0 10px;
+}
+/* .nav-link-title {
+
+} */
+.banner {
+    height: 90vh;
+    background-image: url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center center;
+}
+.about-us {
+    margin-top: 100px;
+}
+.about {
+    position: absolute;
+    top: 60%;
+}
+.user-icon {
+    color: rgb(255, 174, 0);
+}
+.price {
+    background-color: rgb(255, 208, 0);
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+}
+.title-h1 {
+    font-weight: 700;   
+    font-size: 5rem;
+    color: white;
+}
+.content-child ,p {
+    color: white;
+}
+.head {
+    background-color: rgba(32, 31, 31, 0.096);
+}
+.driver {
+    margin: 2em auto 3em;
+    height: 4px;
+    width: 5em;
+    border-top: 2px solid black;
+    background-image: linear-gradient(to right, black 50%, rgb(255, 187, 0) 50%);
+}
+.bi-serviece:hover {
+    color: rgb(255, 174, 0);
+}
+.serviece-title {
+    font-weight: 300;
+    font-size: 32px;
+}
+.banner-2 {
+    margin-top: 4em;
+    background-image: url(https://images.unsplash.com/photo-1646442423753-7a91b6f2f5d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center center;
+}
+.col1 {
+    background-color: rgba(255, 174, 0, 0.993);
+}
+.button-banner2 {
+    color: white;
+    background-color: black;
+    padding: 1em 3em;
+}
+.button-banner2:hover {
+    text-decoration: none;
+    color: white;
+}
+.we-are {
+    margin: 3em 2em;
+}
+.our-room {
+    margin-top: 100px;
+}
+.space {
+    margin: 1em 0;
+}
+.prices, .dollar {
+    font-size: 24px;
+    color: rgb(255, 208, 0);
+    font-weight: 600;
+}
+.price-night {
+    color: white;
+}
+.serviece-item {
+    margin-bottom: 2em;
+}
+.serviece-rooms-content {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+.room-name {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding-left: 10px;
+    background-image: linear-gradient(to right, rgb(255, 196, 0)70%,rgba(255, 255, 0, 0));
+    width: 12em;
+    height: 1.5em;
+}
+div.stars {
+    width: 210px;
+    display: inline-block;
+  }
+   
+  input.star { display: none; }
+   
+  label.star {
+    float: right;
+    padding: 10px;
+    font-size: 16px;
+    color: #444;
+    transition: all .2s;
+  }
+   
+  input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+  }
+   
+  input.star-5:checked ~ label.star:before {
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+   
+  input.star-1:checked ~ label.star:before { color: #F62; }
+   
+  label.star:hover { transform: rotate(-15deg) scale(1.3); }
+   
+  label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+  }
+.price-room {
+    display: flex;
+    justify-content: space-around;
+}
+.latest-offers {
+    background-color: rgba(126, 125, 125, 0.089);
+    margin-top:10em;
+}
+.latest-offers-content {
+    padding-top: 5em;
+}
+.offers-room-bgc1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center center;
+}
+.offers-room-bgc2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center center;
+}
+.offers-room-bgc {
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 2em;
+}
+.offers-child:hover {
+    text-decoration: none;
+}
+.offers-room-bgc:hover {
+    transform: scale(1.01);
+}
+.offers-room-banner {
+    padding-top: 2em;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(49, 31, 3, 0.432);
+}
+.discount {
+    padding: 5px 20px;
+    color: black;
+    background-color: rgb(255, 208, 0);
+    width: 50%;
+}
+.room-offer{
+    color: white;
+    margin: 40px 40px 0px;
+}
+.service-room-content {
+    color: white;
+    margin: 10px 40px 0px;
+}
+.service-list {
+    margin: 20px 40px   ;
+}
+.service-list-item {
+    color: white;
+}
+.target-for-fun {
+    color: black;
+    border: 1px solid black;
+    margin: 4em auto 8em;
+    padding: 1em 6em;
+}
+.target-for-fun:hover {
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+}
+.highlight {
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyJiT38rIV4kTYCxIjy2yS03JY_YUgmu-U4cKsnwLMVl6IBTfq);
+    background-size: cover;
+}
+.highlight-content {
+    padding:3em 0; 
+}
+.highlight-num, .highlight-name {
+    color: black;
+}
+.highlight-num {
+    font-weight: 700;
+    font-size: 4em;
+}
+.highlight-name {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+.gallery-image {
+    margin-top: 100px;
+}
+.gallery-item {
+    transition: .5s ease-in-out;
+}
+.gallery-item:hover {
+    filter: brightness(80%);
+}
+.pricing {
+    margin: 100px 0;
+}
+.packages-item {
+    text-align: center;
+    border: 1px solid black ;
+    margin: 0 2px;
+    background-image: linear-gradient(to bottom, rgba(34, 30, 30, 0.753) 30%, rgba(241, 231, 231, 0.432) 30%);
+    transition: 5s ease-in-out;
+}
+.packages-item-2 {
+    text-align: center;
+    border: 1px solid black ;
+    margin: 0 2px;
+    background-image: linear-gradient(to bottom, rgba(252, 164, 2, 0.753) 30%, rgba(241, 231, 231, 0.432) 30%);
+    transition: 5s ease-in-out;
+}
+.packages-item:hover{
+    transform: scale(1.1);
+}
+.package-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.package-title {
+    margin-top: 1em;
+}
+.package-price {
+    font-weight: 600;
+    margin-top: 1em;
+    border-radius: 50% 50%;
+    background-color: #fff;
+    height: 6em;
+    width: 6em;
+    margin-bottom: 2em;
+    word-wrap: break-word
+}
+.package-button {
+    font-weight: 700;
+    background-color: rgb(100, 98, 98);
+    color: white;
+    padding: 0.5em 2em;
+    margin: 2em auto 3em;
+}
+.package-button-2 {
+    font-weight: 700;
+    background-color: rgb(255, 174, 0);
+    color: white;
+    padding: 0.5em 2em;
+    margin: 2em auto 3em;
+}
+.package-button:hover {
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.bottom {
+    margin-top: 2em;
+    background-color: rgb(255, 187, 0);
+}
+.bottom-1{
+    padding: 2em 0 2em;
+}
+.input-email {
+    width: 100%;
+    padding: 1em 2em;
+}
+.footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.842)), url(https://tqthotel.com/public/upload/page/chao-mung-quy-khach-den-voi-tqt-hote-1575876650.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.footer-title {
+    margin-top: 3em;
+    color: rgb(255, 166, 0);
+}
+.footer-child-title-1-1 {
+    color:rgb(255, 166, 0);
+    display: inline-block;
+}
+.footer-child-title-1-2 {
+    display: inline-block;
+    color: white;
+}
+.social-icon-child-footer {
+    color: white;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.fotter-content {
+    margin-top: 2em;
+}
+.contact-content {
+    color: white;
+}
+.reserved {
+    padding: 3em 0;
+    border-top: 1px dotted rgb(255, 255, 255);
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+.fill-reserved-title {
+    color: rgb(255, 174, 68);
+    font-weight: 400;
+}
